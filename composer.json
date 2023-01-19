@@ -1,0 +1,28 @@
+{
+    "name": "tym/websocket",
+    "description": "The Smart Websocket package.",
+    "keywords": [
+        "http",
+        "websocket",
+        "server"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yvan Tchuente",
+            "email": "yvantchuente@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Tym\\Websocket\\": "src/"
+        }
+    }
+}

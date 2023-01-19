@@ -1,0 +1,7 @@
+composer.lock
+.phpunit.result.cache
+results.xml
+*.txt
+html-coverage/*
+vendor/*
+.vscode/*
